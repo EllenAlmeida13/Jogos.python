@@ -3,7 +3,7 @@ import random
 def jogar():
 
     print("---------------------------------")
-    print("Bem vind ao jogo de Adivinhação!")
+    print("Bem vindX ao jogo de Adivinhação!")
     print("---------------------------------")
 
     numero_secreto = random.randrange(1,101)
@@ -12,7 +12,7 @@ def jogar():
 
 
     print("Qual nível tu quer jogar?")
-    print("(1) Fazinho (2) Meio fazinho (3) Dificizinho")
+    print("(1) Facinho (2) Meio facinho (3) Dificilzinho")
 
     nivel = int(input("Defina o nível: "))
 
